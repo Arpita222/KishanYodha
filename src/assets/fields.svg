@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e6f8f2"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="field1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b7e4c7"/>
+      <stop offset="100%" stop-color="#95d5b2"/>
+    </linearGradient>
+    <linearGradient id="field2" x1="1" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#74c69d"/>
+      <stop offset="100%" stop-color="#52b788"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#sky)"/>
+  <path d="M0,280 C200,240 400,320 600,300 C800,280 1000,220 1200,260 L1200,400 L0,400 Z" fill="url(#field1)"/>
+  <path d="M0,320 C220,300 420,360 640,340 C860,320 1040,280 1200,300 L1200,400 L0,400 Z" fill="url(#field2)"/>
+  <g opacity="0.35">
+    <path d="M0,350 C150,330 300,370 450,355 C600,340 750,330 900,345 C1050,360 1125,365 1200,360" stroke="#2d6a4f" stroke-width="2" fill="none"/>
+    <path d="M0,365 C150,345 300,385 450,370 C600,355 750,345 900,360 C1050,375 1125,380 1200,375" stroke="#2d6a4f" stroke-width="2" fill="none"/>
+  </g>
+</svg>
+
+
+
+
+
+
