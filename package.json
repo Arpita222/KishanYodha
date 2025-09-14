@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview --open"
+    "preview": "vite preview --open",
+    "start": "npx serve dist"
+
   },
   "dependencies": {
     "react": "^18.3.1",
