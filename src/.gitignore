@@ -28,3 +28,11 @@ yarn-error.log*
 
 # TypeScript build
 *.tsbuildinfo
+
+# build output
+dist/
+
+# optional
+.env
+*.log
+.DS_Store
